@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TikTok 风格刷视频</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="app">
+      <header class="top-bar">
+        <h1>For You</h1>
+      </header>
+
+      <main id="feed" class="feed" aria-live="polite"></main>
+
+      <aside class="actions" aria-label="视频操作">
+        <button id="likeBtn" class="action-btn">❤️<span id="likeCount">0</span></button>
+        <button id="commentBtn" class="action-btn">💬</button>
+        <button id="shareBtn" class="action-btn">↗</button>
+      </aside>
+
+      <div class="hint">上下滑动 / 鼠标滚轮切换视频</div>
+    </div>
+
+    <script src="app.js"></script>
+  </body>
+</html>
